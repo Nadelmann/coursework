@@ -1,0 +1,38 @@
+body{ 
+    background-color: rgb(106, 184, 180);
+    border: rgb(45, 45, 128);
+}
+h1{
+    text-decoration: underline;
+    text-align: center;
+    color: black;
+    font-family: 'Lucida Sans';
+}
+h2{
+    text-align: center;
+    color: rgb(18, 8, 78);
+    font-family: 'Lucida Sans'
+}
+p{
+    text-align: center;
+    color: black;
+    font-family: 'Lucida Sans'
+}
+ul{
+    text-align: center;
+}
+li{
+    text-align: center;
+    list-style: none;
+    color: darkslateblue;
+    font-family: 'Lucida Sans'
+}
+header{
+    text-align: center;
+    color: rgb(18, 8, 78);
+    font-family: 'Lucida Sans'
+}
+footer{    text-align: center;
+    color: black;
+    font-family: 'Lucida Sans'
+}
