@@ -1,0 +1,139 @@
+/*form alignment and font*/
+article{
+    text-align: center;
+    font-family: serif;
+}
+form{
+    font-family: serif;
+}
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: darkblue;
+    gap: 10px;
+}
+footer{
+    display: grid;
+    justify-content: center;
+    align-content: end;
+}
+body{
+    background-color: white ;
+    display: grid;   
+    min-block-size: calc(100vh - 6em);
+  }
+.grid{
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+  }
+  
+.grid div {
+    width: 100%;
+    padding-bottom: 100%;
+    background: lightskyblue;
+} 
+h1{
+      color:gold;
+      font-family: serif;
+      font-size: 2em;
+      display: grid;
+}  
+  /*go back button*/
+.btn{
+    background: rgb(81, 187, 208) ;
+    cursor: grab;
+    padding: .5em 1em ;
+    border-radius: .5em;
+    color:white;
+    text-decoration: none;   
+}
+@media (max-width: 400px) {
+    .grid{
+      grid-template-columns: 1fr;
+    }
+    .mountainflex, .mountainflex2{
+        columns: 1;
+
+    }
+  }
+
+/*art piece*/
+.sun{
+    display: grid;
+    min-width: 160px;
+    max-width: 160px;
+    aspect-ratio: 1;
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin: 30vh;
+    background-color: gold;
+    clip-path: polygon(100.00% 50.00%,85.36% 85.36%,50.00% 100.00%,14.64% 85.36%,0.00% 50.00%,14.64% 14.64%,50.00% 0.00%,85.36% 14.64%);
+}
+.triangle-mount1 {
+
+min-height: fit-content;
+min-width: fit-content;
+    border-left: 30vh solid transparent;
+    border-right: 30vh solid transparent;
+    border-bottom: 60vh solid rgb(65, 81, 113);
+
+
+}
+.triangle-mount2 {
+
+    min-height: fit-content;
+    min-width: fit-content;
+        border-left: 30vh solid transparent;
+        border-right: 60vh solid transparent;
+        border-bottom: 50vh solid rgb(65, 81, 113);
+
+}
+.triangle-mount3 {
+
+        min-height: fit-content;
+        min-width: fit-content;
+            border-left: 30vh solid transparent;
+            border-right: 20vh solid transparent;
+            border-bottom: 50vh solid rgb(65, 81, 113);
+
+} 
+
+.triangle-mount4 {
+
+
+    min-height: fit-content;
+    min-width: fit-content;
+        border-left: 40vh solid transparent;
+        border-right: 60vh solid transparent;
+        border-bottom: 60vh solid rgb(41, 62, 49);
+
+ }
+ .triangle-mount5 {
+
+        min-height: fit-content;
+        min-width: fit-content;
+            border-left: 20vh solid transparent;
+            border-right: 30vh solid transparent;
+            border-bottom: 50vh solid rgb(41, 62, 49);
+
+}
+.mountainflex{
+    display:flex;
+    z-index: 1; 
+    position: absolute;
+    top: 120vh;
+
+}
+.mountainflex2{
+    display:flex;
+    z-index: 2; 
+    position: absolute;
+    top: 120vh;
+}
+  
+  
+    
