@@ -1,0 +1,14 @@
+/*website for a breakfast restraunt, 3 columns of equal size, bacon eggs toast, middle column to be an orange circle*/
+.normcolumn{
+    background-color: grey;
+}
+.orange{
+    background-color: orange;
+    border-radius: 50%;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+}
