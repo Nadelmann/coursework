@@ -44,14 +44,14 @@ for(let char of myString1){
 //expected result "ukelele has 3 consonants and 4 vowels"
 const myString2 = ['ukelele'];
 console.log(myString2);
-for(let i=0; i< myString2.length; i++){
+for(let i=0; i < myString2.length; i++){
     console.log(myString2[i]);
  };
 //Input Array "awesome"
 //expected result "awesome has 3 consonants and 4 vowels"
 const myString3 = ['awesome'];
 console.log(myString3);
-for(let i=0; i< myString3.length; i++){
+for(let i=0; i < myString3.length; i++){
     console.log(myString3[i]);
  };
 //Input Array "onomatopoeia"
