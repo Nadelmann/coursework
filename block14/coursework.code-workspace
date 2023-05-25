@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "coursework",
+			"path": ".."
+		},
+		{
+			"name": "Personal-Website",
+			"path": "../block09/Personal-Website"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "coursework",
+		"liveServer.settings.CustomBrowser": "chrome"
+	}
+}
