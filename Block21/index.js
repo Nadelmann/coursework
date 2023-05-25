@@ -23,7 +23,7 @@ constructor (make, model, year, range) {
 // Have the ElectricCar prototype override the getDescription method of the Car prototype with a new implementation that includes information about the range of the electric car.
 
 getDescription () {
-   return `This car is a ${this.make}, ${this.model}, it was made in ${tthis.year}, and has a range of ${this.range} miles.`;
+   return `This car is a ${this.make}, ${this.model}, it was made in ${this.year}, and has a range of ${this.range} miles.`;
     }  
 };
 // Create an instance of ElectricCar with the make "Tesla", model "Model S", year 2019, and range 300, and the getDescription method is called on the instance. The output will be a string containing the make, model, year, and range of the electric car.
